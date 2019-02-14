@@ -14,10 +14,10 @@ const server = express();
 const port = process.env.PORT;
 //
 
-/*
+/*npm
 Démarrage
 */
-app.listen(port, () => {
+server.listen(port, () => {
     console.log('serveur started on port ${port}');
 });
 //
