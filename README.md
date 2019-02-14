@@ -9,4 +9,14 @@ Mise ne place d"une application de chat (chatbot)
     - Créer une constante pour les imports (attention à dotenv)
     - Créer une constante pour le serveur (utilisation de la fonction express())
     - Configurer les composants
-    - Lancer le serveur 
+    - Lancer le serveur
+
+## Configuration des vues client
+- Définir le _moteur de rendu_ en __ejs__
+- Définir un dossier "__ww__" comme étant le _dossier client_
+- Créer un fichier "__index.ejs__" dans le dossier "__ww__"
+- Créer un routeur front
+    - Créer la route Homepage
+    - Créer la route registre
+    - Créer la route login
+    - Créer la route chat
